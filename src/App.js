@@ -1,6 +1,6 @@
 
 import './App.css';
-
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar1 from "./components/NavBar1";
 import ListPoem from './components/ListPoem';
@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 function App() {
+  //uqunROA
   return (
     <>
       <NavBar1></NavBar1>
