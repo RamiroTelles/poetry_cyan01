@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 
 import React from 'react';
 
+const ruta = "https://ramirotelles.github.io/poetry-cyan01";
 
 function ListPoem() {
     const [jsonData, setJsonData] = useState(null);
@@ -17,7 +18,7 @@ function ListPoem() {
     };
 
   useEffect(() => {
-    fetch('/poems/data.json')
+    fetch(ruta +'/poems/data.json')
       .then((res) => {
         if (!res.ok) {
           throw new Error('No se pudo cargar el archivo JSON');
