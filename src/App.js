@@ -1,28 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
+import './App.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar1 from "./components/NavBar1";
+import ListPoem from './components/ListPoem';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Button>Hello geis</Button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar1></NavBar1>
+      <Container>
+        <Row>
+          <h1 className='text-center mt-3' style={{ fontFamily: 'Poetsen One'}}>Poemas solo para ti</h1>
+        </Row>
+        <Row>
+          <ListPoem></ListPoem>
+        </Row>
+        
+      </Container>
+    </>
   );
 }
 
