@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c351e33a023d58958dcdb914d313cc2",
+    "revision": "df2443b12372970958206fe839727ee0",
     "url": "/poetry_cyan01/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/poetry_cyan01/static/css/2.de1632da.chunk.css"
   },
   {
-    "revision": "a9b085d632e9814f3b17",
+    "revision": "784e5e9ea3df4cf46367",
     "url": "/poetry_cyan01/static/css/main.435d5fe5.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/poetry_cyan01/static/js/3.e535d82b.chunk.js"
   },
   {
-    "revision": "a9b085d632e9814f3b17",
-    "url": "/poetry_cyan01/static/js/main.7fa0d57b.chunk.js"
+    "revision": "784e5e9ea3df4cf46367",
+    "url": "/poetry_cyan01/static/js/main.8a4a0eef.chunk.js"
   },
   {
     "revision": "4c33e184c2303300919e",
