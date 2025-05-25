@@ -57,9 +57,9 @@ function ListPoem() {
                     <p className='text-break' style={{ fontFamily: 'Playpen Sans Arabic' }}>{paragraph}</p>
                 </>
             );
-        })
+        })                                              
         )}
-        {idPoem && jsonData && (<Button variant='light' onClick={() => setIdPoem(null)}>Volver</Button>)}
+        {idPoem && jsonData && (<Button variant='outline-dark' onClick={() => setIdPoem(null)}                                                                                                                                                                                                                                                 >Volver</Button>)}
         </Container>
     </>
   );
